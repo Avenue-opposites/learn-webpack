@@ -1,0 +1,76 @@
+#nav {
+    display: flex;
+    width: 100%;
+    min-width: 552px;
+    height: 60px;
+    align-self: flex-start;
+    background-color: #2b3a42;
+    padding: 0 20%;
+}
+#nav>.background-url {
+    transition: opacity .3s;
+    display: inline-block;
+    min-width: 120px;
+    height: 40px;
+    margin: 10px 0;
+    background: url(../../public/img/logo.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+#nav>.background-url:hover {
+    opacity: 1;
+}
+#nav .list {
+    position: relative;
+    right: -150px;
+    display: inline-flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+    min-width: 552px;
+    height: 100%;
+    justify-content: flex-end;
+}
+#nav .list li {
+    width: 100px;
+    height: 100%;
+    padding-top: 20px ;
+}
+#nav .list li a {
+    position: relative;
+    display: block;
+    margin:0 auto;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    transition: color .3s;
+}
+#nav .list li a:hover {
+    color: #8dd6f9;
+}
+#nav .list li a::after {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    background-color: #8dd6f9;
+    opacity: 0;
+    bottom: -10px;
+    left: 10%;
+}
+#nav .list li a:hover::after {
+    animation: moveline .2s forwards;
+}
+#nav .list .iconfont {
+    display: inline-block;
+    margin-right: 2px;
+}
+@keyframes moveline {
+    to {
+        bottom: -4px;
+        left: 10%;
+        opacity: 1;
+    }
+} 

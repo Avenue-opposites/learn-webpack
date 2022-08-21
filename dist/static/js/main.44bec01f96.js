@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkwebpack_test=self.webpackChunkwebpack_test||[]).push([[179],{96:function(){let e=new Promise((e=>{e("Promise")}));var o={test:async function(){return await e}};console.log("webpack: 5.73.0,webpack-cli: 4.9.2"),console.log(1+2),console.log("模块热替换已启用"),o.test().then((e=>{console.log(e)}))}},function(e){var o;o=96,e(e.s=o)}]);
+//# sourceMappingURL=main.44bec01f96.js.map

@@ -1,0 +1,32 @@
+body {
+    background-color: #fff;
+}
+#nav {
+    background-color: #667c94;
+}
+#nav>.background-url {
+    background: url(../../../public/img/Vue_logo.svg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#nav .list li a:hover {
+    color: #42b983;
+}
+#nav .list li a::after {
+    background-color: #42b983;
+}
+#container {
+    background-color: #0cc572;
+    box-shadow: 0px 0px 5px #208558;
+}
+#container a {
+    background-color: #0eb56a;
+    border: 2px solid #038149;
+    box-shadow: 1px 2px 3px #0c864f;
+}
+#container a:hover {
+    background-color: #03532f;
+    border: 2px solid #01341d;
+    box-shadow: 1px 2px 3px #037c46;
+}
